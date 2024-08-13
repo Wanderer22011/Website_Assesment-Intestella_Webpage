@@ -1,0 +1,11 @@
+.hero-image{
+    background-image: url("./Images/gargantuan-black-hole.jpg");
+    height: 352px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+h1{
+    color: white;
+}
