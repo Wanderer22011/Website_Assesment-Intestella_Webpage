@@ -1,9 +1,9 @@
 .hero-image{
     background-image: url("./Images/gargantuan-black-hole.jpg");
-    height: 300px;
+    height: 150px;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 85%;
     position: relative;
 }
 h1{
@@ -13,4 +13,17 @@ h1{
     top: 180px;
     width: 100%;
     font-size: 3rem;
+}
+
+body{
+    background-size: 50%;
+}
+a{
+line-height: 15;
+margin-right: 100px;
+margin-left: 150px;
+}
+
+.One-column{
+    margin-left:100;
 }
