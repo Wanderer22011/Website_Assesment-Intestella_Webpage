@@ -5,7 +5,15 @@
     background-repeat: no-repeat;
     background-size: 85%;
     position: relative;
+    margin-top: -3px;
+    
 }
+
+.home_logo{
+    margin-left: 150px;
+
+}
+
 h1{
     color: white;
     position: absolute;
@@ -18,12 +26,52 @@ h1{
 body{
     background-size: 50%;
 }
-a{
-line-height: 15;
-margin-right: 100px;
-margin-left: 150px;
+button{
+line-height: 1;
+margin-right: 20px;
+margin-left: 40px;
+margin-bottom: 30px;
+height: 200px;
+width: 350px;
+
 }
 
-.One-column{
-    margin-left:100;
+div {
+    background-color:rgba(1, 44, 84, 1); ;
+    
+  }
+
+h2{
+    background-color: rgba(1, 44, 84, 1);
+    text-align: center;
+    color: white;
+}
+.About_This_Page{
+    width: 1093px;
+    height: 100px;
+    text-align: center;
+    
+    padding: 100px;
+    color: white;
+    margin: auto;
+}
+
+
+.Six-Column{
+    display:grid;
+    grid-template-columns:repeat(3,2fr);
+
+    
+}
+
+
+
+.Content{
+    background-color: rgba(1, 44, 84, 1);
+    width: 85%;
+    margin-left: 115px;
+}
+
+.Contact{
+    background-color: rgb(0, 93, 180);
 }
