@@ -91,7 +91,7 @@ h2{
     font-size: 1.25rem;
 }
 
-.character-title{
+.title{
     text-align: center;
     text-decoration: underline;
 }
@@ -115,7 +115,6 @@ h2{
     grid-template-columns: 1fr 2fr;
     width: 100%;
     gap: 50px;
-    margin: auto;
     margin-left: 200px;
 }
 
@@ -135,3 +134,13 @@ h2{
     width: 50%;
     height: 50%;
 }
+
+.Music-content{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    width: 100%;
+    gap: 50px;
+    margin: auto;
+    margin-right: 50px;
+}
+
